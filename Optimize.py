@@ -13,11 +13,10 @@ from SUAVE.Core import Units, Data
 from SUAVE.Optimization import Nexus, carpet_plot
 from SUAVE.Plots.Mission_Plots import *
 
-import Analyses_Pliakos as Analyses
-import Missions_Pliakos as Mission
-import Plot_Mission
-import Procedure_Pliakos as Procedure
-import Vehicle_Pliakos as Vehicles
+import Analyses
+import Missions
+import Procedure
+import Vehicle
 
 # ----------------------------------------------------------------------
 #   Run the whole thing
