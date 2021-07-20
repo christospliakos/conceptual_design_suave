@@ -11,8 +11,7 @@ import SUAVE
 import numpy as np
 from SUAVE.Core import Units
 
-from supporting.S_wetted_wing import S_wet_w, S_wet_fus
-from supporting.engine import engine_caluclations
+from engine import engine_caluclations
 from SUAVE.Methods.Geometry.Two_Dimensional.Planform import wing_planform, horizontal_tail_planform_raymer, \
     vertical_tail_planform_raymer, fuselage_planform
 
